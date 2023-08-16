@@ -1,0 +1,40 @@
+body {
+    padding: 10px 20px;
+}
+.select-container {
+
+    max-width: 500px;
+}
+
+.description {
+    width: 800px;
+}
+
+img {
+    width: 500px;
+}
+  .error {
+    display: none;
+  }
+
+
+  .loader {
+    margin-top: 10px;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #1f1c1c;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

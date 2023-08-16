@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 10</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/notiflix@2.7.0/dist/notiflix-2.7.0.min.css"
+  integrity="sha384-fxOBm3imCGC2jkab0JeNBP4l05mTw0m/fz4vsoyQ7B51C8qonQAnREHp+y41oXAp"
+  crossorigin="anonymous"
+/>
+
+    <link rel="stylesheet" href="./style.css" /> 
   </head>
   <body>
-    <select class="breed-select"></select>
-    <p class="loader">Loading data, please wait...</p>
+    <div class="select-container">
+      <select class="breed-select" id="breedSelect"></select>
+    </div>
+    
+    <p hidden>Loading data, please wait...</p>
+    <span class="loader"></span>
     <p class="error">Oops! Something went wrong! Try reloading the page!</p>
     <div class="cat-info"></div>
 
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
+
